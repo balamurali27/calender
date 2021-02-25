@@ -1,0 +1,23 @@
+th,
+td {
+  border: 1px solid black;
+}
+th {
+  color: white;
+  background-color: black;
+}
+th,
+td {
+  padding: 0.6rem;
+}
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 70%;
+}
+.week .day {
+  background-color: indianred;
+}
+.day.holiday {
+  background-color: moccasin;
+}
