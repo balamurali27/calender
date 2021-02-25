@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="style.css" />
@@ -8,7 +9,7 @@
     <title>calendar</title>
   </head>
   <body>
-    <table>
+    <table style="display: inline-table;">
       <caption>
         December 2020
       </caption>
@@ -27,14 +28,14 @@
         <tr>
           <td class="day"></td>
           <td class="day"></td>
-          <td class="day">1</td>
+          <td bgcolor="aquamarine">1</td>
           <td class="day">2</td>
           <td class="day">3</td>
           <td class="day">4</td>
           <td class="day">5</td>
         </tr>
         <tr>
-          <td class="day holiday">6</td>
+          <td class="">6</td>
           <td class="day">7</td>
           <td class="day">8</td>
           <td class="day">9</td>
@@ -43,7 +44,7 @@
           <td class="day">12</td>
         </tr>
         <tr>
-          <td class="day holiday">13</td>
+          <td>13</td>
           <td class="day">14</td>
           <td class="day">15</td>
           <td class="day">16</td>
@@ -72,7 +73,22 @@
       </tbody>
     </table>
 
-    <table id="jan">
+    <ul style="list-style-type: square; width: 25%; display: inline-table;">
+      <li style="color: indianred">
+        <strong style="color: black"> Daily</strong>
+      </li>
+      <li style="color: moccasin">
+        <strong style="color: black"> Weekly</strong>
+      </li>
+      <li style="color: aquamarine">
+        <strong style="color: black"> Monthly</strong>
+      </li>
+      <li style="color: gray">
+        <strong style="color: black"> Yearly</strong>
+      </li>
+    </ul>
+
+    <table>
       <caption>
         January 2021
       </caption>
@@ -94,29 +110,29 @@
           <td class="day"></td>
           <td class="day"></td>
           <td class="day"></td>
-          <td class="day">1</td>
+          <td class="day" bgcolor="gray">1</td>
           <td class="day">2</td>
         </tr>
         <tr>
           <td class="day holiday">3</td>
           <td class="day">4</td>
           <td class="day">5</td>
-          <td class="day">6</td>
-          <td class="day">7</td>
-          <td class="day">8</td>
-          <td class="day">9</td>
+          <td bgcolor="indianred">6</td>
+          <td bgcolor="indianred">7</td>
+          <td bgcolor="indianred">8</td>
+          <td bgcolor="indianred">9</td>
         </tr>
         <tr>
-          <td class="day holiday">10</td>
-          <td class="day">11</td>
-          <td class="day">12</td>
-          <td class="day">13</td>
+          <td bgcolor="indianred">10</td>
+          <td bgcolor="indianred">11</td>
+          <td bgcolor="indianred">12</td>
+          <td bgcolor="indianred">13 (today)</td>
           <td class="day">14</td>
           <td class="day">15</td>
           <td class="day">16</td>
         </tr>
         <tr>
-          <td class="day holiday">17</td>
+          <td class="">17</td>
           <td class="day">18</td>
           <td class="day">19</td>
           <td class="day">20</td>
@@ -125,7 +141,7 @@
           <td class="day">23</td>
         </tr>
         <tr>
-          <td class="day holiday">24</td>
+          <td>24</td>
           <td class="day">25</td>
           <td class="day">26</td>
           <td class="day">27</td>
@@ -134,7 +150,7 @@
           <td class="day">30</td>
         </tr>
         <tr>
-          <td class="day holiday">31</td>
+          <td class="">31</td>
           <td class="day"></td>
           <td class="day"></td>
           <td class="day"></td>
@@ -145,4 +161,5 @@
       </tbody>
     </table>
   </body>
+  <style type="text/css"></style>
 </html>
