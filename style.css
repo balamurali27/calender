@@ -1,23 +1,46 @@
 th,
 td {
-  border: 1px solid black;
+  border: 1px solid;
+  border-color: #c1c6cc;
 }
 th {
-  color: white;
-  background-color: black;
-}
-th,
-td {
+  border: 0px;
+  border-bottom: 0px;
   padding: 0.6rem;
+}
+td {
+  text-align: center;
+  height: 5em;
+  /* border-right: 0px; */
+  color: black
 }
 table {
   border-collapse: collapse;
   table-layout: fixed;
-  width: 70%;
-}
-.week .day {
-  background-color: indianred;
+  width: 40%;
+  border-radius: 10%;
+  border: 3px;
 }
 .day.holiday {
-  background-color: moccasin;
+  background-color: #ecac4b;
+}
+* {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  color: #687178;
+}
+caption {
+  text-align:center;
+  margin: 20px;
+  font-size: 1.3em;
+}
+hr{
+  color: #c1c6cc;
+  width: 100%;
+}
+
+ul {
+  font-size: 1.5em;
+}
+ul span{
+  color: #687178;
 }
